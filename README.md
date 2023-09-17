@@ -21,7 +21,7 @@ pip3 install psycopg2-binary</i>
 
 Можно написать Unit файл или использовать Cron для периодического запуска - например <b>/etc/crontab:</b>
 
-  <i>0 17 *  *  * root /usr/local/bin/python3 /opt/parsdrom/drom.py <b>1</b></i>
+  <i>0 17 *  *  * root /usr/local/bin/python3 /opt/parsdrom/<a href="https://github.com/Arkady1996/drompars/blob/main/drom.py">drom.py</a> <b>1</b></i>
 
 Для запуска скрипта необходимо передать параметр - номер необходимого региона
 
