@@ -5,7 +5,7 @@ ___
 
 <b>Необходимые пакеты и библиотеки:</b>
 
-<i>yum install openssl11-devel (не работал pip без данного пакета)
+<i>yum install openssl11-devel (не работал pip без данной версии ssl)
 
 pip3 install requests  
 
