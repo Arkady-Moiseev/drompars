@@ -24,7 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 3,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -38,7 +38,7 @@
       },
       "id": 12,
       "panels": [],
-      "title": "Гранта 16 регион",
+      "title": "Accord",
       "type": "row"
     },
     {
@@ -127,7 +127,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Гранта' AND year = '2012' AND region_number = '16'\r\nGROUP BY DATE(date_time)",
+          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Accord' AND year = '2003'\r\nGROUP BY DATE(date_time)",
           "refId": "A",
           "sql": {
             "columns": [
@@ -148,7 +148,7 @@
           }
         }
       ],
-      "title": "Гранта 2012",
+      "title": "Accord 2003",
       "type": "timeseries"
     },
     {
@@ -237,7 +237,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Гранта' AND year = '2013' AND region_number = '16'\r\nGROUP BY DATE(date_time)",
+          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\nWHERE model = 'Accord' AND year = '2004'\nGROUP BY DATE(date_time)",
           "refId": "A",
           "sql": {
             "columns": [
@@ -258,7 +258,7 @@
           }
         }
       ],
-      "title": "Гранта 2013",
+      "title": "Accord 2004",
       "type": "timeseries"
     },
     {
@@ -347,7 +347,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Гранта' AND year = '2014' AND region_number = '16'\r\nGROUP BY DATE(date_time)",
+          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\nWHERE model = 'Accord' AND year = '2005'\nGROUP BY DATE(date_time)",
           "refId": "A",
           "sql": {
             "columns": [
@@ -368,7 +368,7 @@
           }
         }
       ],
-      "title": "Гранта 2014",
+      "title": "Accord 2005",
       "type": "timeseries"
     },
     {
@@ -457,7 +457,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Гранта' AND year = '2015' AND region_number = '16'\r\nGROUP BY DATE(date_time)",
+          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\nWHERE model = 'Accord' AND year = '2006'\nGROUP BY DATE(date_time)",
           "refId": "A",
           "sql": {
             "columns": [
@@ -478,7 +478,7 @@
           }
         }
       ],
-      "title": "Гранта 2015",
+      "title": "Accord 2006",
       "type": "timeseries"
     },
     {
@@ -567,7 +567,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Гранта' AND year = '2016' AND region_number = '16'\r\nGROUP BY DATE(date_time)",
+          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\nWHERE model = 'Accord' AND year = '2007'\nGROUP BY DATE(date_time)",
           "refId": "A",
           "sql": {
             "columns": [
@@ -588,7 +588,7 @@
           }
         }
       ],
-      "title": "Гранта 2016",
+      "title": "Accord 2007",
       "type": "timeseries"
     },
     {
@@ -677,7 +677,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\r\nWHERE model = 'Гранта' AND year = '2017' AND region_number = '16'\r\nGROUP BY DATE(date_time)",
+          "rawSql": "SELECT AVG(price) AS avg_price, DATE(date_time) AS qdate FROM car_drom\nWHERE model = 'Accord' AND year = '2008'\nGROUP BY DATE(date_time)",
           "refId": "A",
           "sql": {
             "columns": [
@@ -698,7 +698,7 @@
           }
         }
       ],
-      "title": "Гранта 2017",
+      "title": "Accord 2008",
       "type": "timeseries"
     },
     {
@@ -784,7 +784,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers",
           "refId": "A",
           "sql": {
             "columns": [
@@ -812,7 +812,7 @@
           "table": "car_drom"
         }
       ],
-      "title": "Count offers Granta in 16 region",
+      "title": "Count offers Accord",
       "type": "timeseries"
     },
     {
@@ -904,8 +904,8 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2012, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16' AND year = '2012'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2012",
-          "refId": "2012",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2003, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2003'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2003",
+          "refId": "2003",
           "sql": {
             "columns": [
               {
@@ -940,8 +940,8 @@
           "format": "table",
           "hide": false,
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2013, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16' AND year = '2013'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2013",
-          "refId": "2013",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2004, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2004'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2004",
+          "refId": "2004",
           "sql": {
             "columns": [
               {
@@ -969,8 +969,8 @@
           "format": "table",
           "hide": false,
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2014, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16' AND year = '2014'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2014",
-          "refId": "2014",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2005, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2005'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2005",
+          "refId": "2005",
           "sql": {
             "columns": [
               {
@@ -998,8 +998,8 @@
           "format": "table",
           "hide": false,
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2015, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16' AND year = '2015'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2015",
-          "refId": "2015",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2006, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2006'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2006",
+          "refId": "2006",
           "sql": {
             "columns": [
               {
@@ -1027,8 +1027,8 @@
           "format": "table",
           "hide": false,
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2016, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16' AND year = '2016'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2016",
-          "refId": "2016",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2007, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2007'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2007",
+          "refId": "2007",
           "sql": {
             "columns": [
               {
@@ -1056,8 +1056,66 @@
           "format": "table",
           "hide": false,
           "rawQuery": true,
-          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2017, DATE(date_time) FROM car_drom\r\nWHERE model = 'Гранта' AND region_number = '16' AND year = '2017'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2017",
-          "refId": "2017",
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2008, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2008'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2008",
+          "refId": "2008",
+          "sql": {
+            "columns": [
+              {
+                "parameters": [],
+                "type": "function"
+              }
+            ],
+            "groupBy": [
+              {
+                "property": {
+                  "type": "string"
+                },
+                "type": "groupBy"
+              }
+            ],
+            "limit": 50
+          }
+        },
+        {
+          "datasource": {
+            "type": "postgres",
+            "uid": "3ATr87mIk"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "hide": false,
+          "rawQuery": true,
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2009, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2009'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2009",
+          "refId": "2009",
+          "sql": {
+            "columns": [
+              {
+                "parameters": [],
+                "type": "function"
+              }
+            ],
+            "groupBy": [
+              {
+                "property": {
+                  "type": "string"
+                },
+                "type": "groupBy"
+              }
+            ],
+            "limit": 50
+          }
+        },
+        {
+          "datasource": {
+            "type": "postgres",
+            "uid": "3ATr87mIk"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "hide": false,
+          "rawQuery": true,
+          "rawSql": "SELECT COUNT(distinct url) AS count_offers_2010, DATE(date_time) FROM car_drom\r\nWHERE model = 'Accord' AND year = '2010'\r\nGROUP BY DATE(date_time)\r\nORDER BY count_offers_2010",
+          "refId": "2010",
           "sql": {
             "columns": [
               {
@@ -1077,7 +1135,7 @@
           }
         }
       ],
-      "title": "Count offers Granta in 16 region",
+      "title": "Count offers Accord",
       "type": "timeseries"
     }
   ],
@@ -1090,13 +1148,13 @@
     "list": []
   },
   "time": {
-    "from": "now-7d",
+    "from": "now-30d",
     "to": "now"
   },
   "timepicker": {},
-  "timezone": "Europe/Moscow",
-  "title": "My CAR",
-  "uid": "XhpHONmSk",
-  "version": 17,
+  "timezone": "",
+  "title": "New dashboard",
+  "uid": "4xRBV3ZIz",
+  "version": 11,
   "weekStart": ""
 }
