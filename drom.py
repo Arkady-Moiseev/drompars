@@ -181,7 +181,7 @@ if r.status_code == 200:
                 draft_list_all_offer_page.append(b)
 
             draft_list_car = []
-            for i in range(2, len(application_json_list) - 1):
+            for i in range(2, len(application_json_list) - 2):
                 b = {}
                 draft_jsonstr = (application_json_list[i])[:-9]
                 car_dict = json.loads(draft_jsonstr)
@@ -254,7 +254,7 @@ if r.status_code == 200:
                     break_out_flag = True
                     break
             draft_list_car = []
-            for i in range(2, len(application_json_list) - 1):
+            for i in range(2, len(application_json_list) - 2):
                 b = {}
                 draft_jsonstr = (application_json_list[i])[:-9]
                 car_dict = json.loads(draft_jsonstr)
